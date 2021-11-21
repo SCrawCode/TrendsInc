@@ -1,15 +1,55 @@
+/*
+    Color Palette:
+    PRI: #FF5656 (Red)
+    SEC: #EDF2F6 (White)
+    TER: #6A7EFC (Blue)
+    NEG:(Black) 
+*/
+
+.Top-Container {
+    background-color: black;
+    margin: 0px;
+}
+
+.Middle-Container {
+    margin-top: 100px;
+    height: 500%;
+}
+
+#nonprofit {
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    width: 33.3%;
+    height: 500px;
+}
+
+#barbershop {
+    background-color: #EDF2F6;
+    position: absolute;
+    left: 33.3%;
+    width: 33.3%;
+    height: 500px;
+}
+
+#incncompany {
+    background-color: red;
+    position: absolute;
+    left: 66.6%;
+    width: 33.3%;
+    height: 500px;
+}
+
 body {
     background-color: black;
+    margin: 0px;
+    text-align: center;
 }
 
 p {
-    color: blanchedalmond;
+    color: #EDF2F6;
 }
 
-h2 {
-    color: blanchedalmond;
-}
-
-form {
-    color: blanchedalmond;
+hr {
+    border-style: none;
 }
