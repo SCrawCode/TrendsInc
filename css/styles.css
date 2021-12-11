@@ -53,8 +53,8 @@ a:hover {
 #window-link {
     text-decoration: none;
     color: blanchedalmond;
-    position: absolute;
-    margin-top: 20%;
+    display: flex;
+    vertical-align: middle;
 }
 
 body {
