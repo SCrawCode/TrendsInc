@@ -54,7 +54,9 @@ a:hover {
     text-decoration: none;
     color: blanchedalmond;
     display: flex;
+    align-items: center;
     vertical-align: middle;
+    position: relative;
 }
 
 body {
