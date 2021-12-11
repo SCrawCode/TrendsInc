@@ -7,8 +7,13 @@
 */
 
 #title {
+    padding-top: 2.5%;
     background-color: black;
     font-size: 1.4rem;
+}
+
+#mantra {
+    padding: 5% 10% 0% 10%;
 }
 
 .container-fluid {
@@ -20,9 +25,36 @@
     height: 20rem;
 }
 
+/* Home Screen Window Divs */
 .col-md-4 {
-    height: 20rem;
+    background: #cccccc;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
     text-align: center;
+}
+#nonprofit-window {
+    background-image: url();
+}
+#barbershop-window {
+    background-image: url(../Images/IMG_6935.jpg);
+}
+#clothing-window {
+    background-image: url();
+}
+a {
+    text-decoration: none;
+    color: #1a1918;
+    font-family: 'Jura', sans-serif;
+}
+a:hover {
+    color: blanchedalmond;
+}
+#window-link {
+    text-decoration: none;
+    color: blanchedalmond;
+    position: absolute;
+    margin-top: 20%;
 }
 
 body {
@@ -34,11 +66,6 @@ body {
 
 p {
     color: #EDF2F6;
-}
-
-a {
-    text-decoration: none;
-    font-family: 'Jura', sans-serif;
 }
 
 hr {
