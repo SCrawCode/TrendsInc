@@ -8,21 +8,25 @@
 
 #title {
     background-color: black;
+    font-size: x-large;
 }
 
 .container-fluid {
     padding: 3% 15%;
 }
 
+
 #homeLogo {
     height: 20rem;
 }
 
-#Windows {
-    font-family: 'Gruppo', cursive;
+.col-md-4 {
+    height: 20rem;
+    text-align: center;
 }
 
 body {
+    font-family: 'Gruppo', cursive;
     background-color: black;
     margin: 0px;
     text-align: center;
@@ -30,11 +34,11 @@ body {
 
 p {
     color: #EDF2F6;
-    font-family: 'Gruppo', cursive;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Jura', sans-serif;
 }
 
 hr {
