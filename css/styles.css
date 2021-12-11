@@ -3,7 +3,7 @@
     PRI: #FF5656 (Red)
     SEC: #EDF2F6 (White)
     TER: #6A7EFC (Blue)
-    NEG:(Black) 
+    NEG:(Black #1a1918) 
 */
 
 #title {
@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #1a1918;
+    background-color: black;
     margin: 0px;
     text-align: center;
 }
