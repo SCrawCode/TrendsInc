@@ -23,18 +23,43 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="nonprofit.html">Trends Care Foundation</a>
-            <a href="barbershop.html">Trends GMC Barbershop</a>
-            <a href="IncnCmpany.html">Trends Inc & Company</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact Us</a>
+    <!-- Header Navbar -->
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark end-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: blue;" href="">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" style="color: red;">Login</a>
+                    </li>
+                    <li class="nav-link dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="padding: 0px;">
+                            Trends Family
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="pages/nonprofit.html">Trends Care Foundation</a></li>
+                            <li><a class="dropdown-item" href="pages/barbershop.html">Trends GMC Barbershop</a></li>
+                            <li><a class="dropdown-item" href="pages/IncnCmpany.html">Trends Inc & Company</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <div>
-        <p>Mission Statement</p>
+        <h2>"Our goal is to help these surviving children financially with moral support and guidance."</h2>
     </div>
 
     <div>
@@ -45,6 +70,8 @@
         <a href="">Join</a>
     </div>
 
+
+    <!-- Footer Navigation -->
     <footer class="container-fluid">
         <div class="d-grid gap-1 col-6 mx-auto">
             <button type="button" class="btn btn-outline-secondary btn-sm"><i class="fal fa-angle-left"></i> <a
