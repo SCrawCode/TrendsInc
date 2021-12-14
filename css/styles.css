@@ -6,23 +6,25 @@
     NEG:(Black #1a1918) 
 */
 
+/* Title Section */
 #title {
     padding-top: 2.5%;
     background-color: black;
-    font-size: 1.4rem;
 }
-
 #mantra {
-    padding: 5% 10% 0% 10%;
-}
+    position: absolute;
+    text-align: end;
 
-.container-fluid {
-    padding: 3% 10% 10% 10%;
 }
-
 
 #homeLogo {
-    height: 20rem;
+    width: 40%;
+}
+
+/* About Section */
+
+#about-section {
+    background-color: blanchedalmond;
 }
 
 /* Home Screen Window Divs */
@@ -41,6 +43,11 @@
 }
 #clothing-window {
     background-image: url();
+}
+
+/* Global */
+.container-fluid {
+    padding: 3% 10% 10% 10%;
 }
 a {
     text-decoration: none;
