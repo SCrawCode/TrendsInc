@@ -24,6 +24,13 @@
 #about-section {
     background-color: blanchedalmond;
 }
+#home-join:hover {
+    background-color: red;
+}
+#home-directory:hover {
+    background-color: yellow;
+}
+
 
 /* Home Screen Window Divs */
 .col-md-4 {
@@ -41,6 +48,21 @@
 }
 #clothing-window {
     background-image: url();
+}
+
+/* Embedded Podcast */
+#podcast {
+    background-color: #1a1918;
+}
+
+/* About/Contact Page */
+.about-contact {
+    background-color: blanchedalmond;
+}
+
+/* Footer/Legal */
+.footer-legal {
+    text-decoration-color: blanchedalmond;
 }
 
 /* Global */
