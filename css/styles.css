@@ -1,4 +1,5 @@
-/*
+
+/* 
     Color Palette:
     PRI: #FF5656 (Red)
     SEC: #EDF2F6 (White)
@@ -7,20 +8,21 @@
 */
 
 /* Title Section */
-#title {
-    padding-top: 2.5%;
+#title-left {
     background-color: black;
 }
-#mantra {
-    text-align: end;
+#title-right {
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
 }
 
 #homeLogo {
-    width: 40%;
+    width: 150%;
 }
 
 /* About Section */
-
+/*
 #about-section {
     background-color: blanchedalmond;
 }
@@ -33,6 +35,7 @@
 
 
 /* Home Screen Window Divs */
+/*
 .col-md-4 {
     background: #cccccc;
     background-position: center;
@@ -51,31 +54,26 @@
 }
 
 /* Embedded Podcast */
+/*
 #podcast {
     background-color: #1a1918;
 }
 
 /* About/Contact Page */
+/*
 .about-contact {
     background-color: blanchedalmond;
 }
 
 /* Footer/Legal */
+/*
 .footer-legal {
     text-decoration-color: blanchedalmond;
 }
-
+*/
 /* Global */
 .container-fluid {
     padding: 3% 10% 10% 10%;
-}
-a {
-    text-decoration: none;
-    color: #1a1918;
-    font-family: 'Jura', sans-serif;
-}
-a:hover {
-    color: blanchedalmond;
 }
 #window-link {
     text-decoration: none;
@@ -85,7 +83,14 @@ a:hover {
     vertical-align: middle;
     position: relative;
 }
-
+a {
+    text-decoration: none;
+    color: #1a1918;
+    font-family: 'Jura', sans-serif;
+}
+a:hover {
+    color: blanchedalmond;
+}
 body {
     font-family: 'Gruppo', cursive;
     background-color: black;
