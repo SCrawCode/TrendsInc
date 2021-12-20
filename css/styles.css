@@ -22,9 +22,13 @@
 }
 
 /* About Section */
-/*
 #about-section {
     background-color: blanchedalmond;
+}
+#about-text {
+    text-justify: distribute;
+    color: #1a1918;
+    font-size: x-large;
 }
 #home-join:hover {
     background-color: red;
