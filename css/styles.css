@@ -11,7 +11,7 @@
 #title {
     position: relative;
     text-align: center;
-    padding-top: 5%;
+    padding: 5% 10% 5% 10%;
     background-image: url(../Images/compass.png);
     background-position: center top;
     background-size: auto;
@@ -56,6 +56,7 @@
 
 /* Home Screen Window Divs */
 .col-md-4 {
+    padding-bottom: 5%;
     background: #cccccc;
     background-position: center;
     background-size: cover;
@@ -80,6 +81,7 @@
 
 /* About/Contact Page */
 .about-contact {
+    padding: 1%;
     background-color: #EDF2F6;
     background-image: linear-gradient(to top, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(../Images/compassNeg.png);
     background-repeat: no-repeat;
@@ -89,16 +91,15 @@
 
 /* Footer/Legal */
 .footer-legal {
+    padding: 1%;
+    font-size: x-small;
     text-decoration-color: #EDF2F6;
 }
 #att {
     color: #EDF2F6;
 }
-*/
+
 /* Global */
-.container-fluid {
-    padding: 3% 10% 10% 10%;
-}
 #window-link {
     text-decoration: none;
     color: #EDF2F6;
