@@ -28,7 +28,7 @@
 #about-text {
     text-justify: distribute;
     color: #1a1918;
-    font-size: x-large;
+    font-size: 2vw;
 }
 #home-join:hover {
     background-color: red;
