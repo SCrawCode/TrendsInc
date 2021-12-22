@@ -26,9 +26,9 @@
     background-color: blanchedalmond;
 }
 #about-text {
-    text-justify: distribute;
+    text-align: center;
     color: #1a1918;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 #home-join:hover {
     background-color: red;
