@@ -73,15 +73,18 @@
 }
 
 /* Embedded Podcast */
-/*
 #podcast {
-    background-color: #1a1918;
+    margin-top: 2%;
+    background-color: black;
 }
 
 /* About/Contact Page */
-/*
 .about-contact {
-    background-color: blanchedalmond;
+    background-color: #EDF2F6;
+    background-image: linear-gradient(to top, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(../Images/compassNeg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
 }
 
 /* Footer/Legal */
