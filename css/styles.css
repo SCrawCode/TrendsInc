@@ -18,6 +18,10 @@
     background-repeat: no-repeat;
 }
 
+.navbar {
+    padding: 2% 5% 0% 5%;
+}
+
 #homeLogo {
     width: 25%;
 }
