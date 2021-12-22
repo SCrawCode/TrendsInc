@@ -8,27 +8,36 @@
 */
 
 /* Title Section */
-#title-left {
-    background-color: black;
-}
-#title-right {
+#title {
     position: relative;
     text-align: center;
     padding-top: 5%;
 }
 
 #homeLogo {
-    width: 150%;
+    /* padding-top: 5%; */
+    width: 25%;
+}
+
+#mantra {
+    padding-top: 5%;
+    font-size: x-large;
+    font-weight: bolder;
 }
 
 /* About Section */
 #about-section {
-    background-color: blanchedalmond;
+    padding-top: 10%;
+    background-color: #EDF2F6;
 }
 #about-text {
+    padding-top: 5%;
     text-align: center;
     color: #1a1918;
-    font-size: 2.5vw;
+    font-size: calc(1rem + .5vw);
+}
+.home-buttons {
+    padding-top: 5%;
 }
 #home-join:hover {
     background-color: red;
@@ -39,7 +48,6 @@
 
 
 /* Home Screen Window Divs */
-/*
 .col-md-4 {
     background: #cccccc;
     background-position: center;
@@ -81,7 +89,7 @@
 }
 #window-link {
     text-decoration: none;
-    color: blanchedalmond;
+    color: #EDF2F6;
     display: flex;
     align-items: center;
     vertical-align: middle;
@@ -93,19 +101,27 @@ a {
     font-family: 'Jura', sans-serif;
 }
 a:hover {
-    color: blanchedalmond;
+    color: #EDF2F6;
 }
 body {
-    font-family: 'Gruppo', cursive;
     background-color: black;
     margin: 0px;
     text-align: center;
 }
 
+
 p {
+    font-family: 'Spinnaker', sans-serif;
     color: #EDF2F6;
 }
-
-hr {
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #1a1918;
+}
+hr:not([size]) {
+    height: 0px;
     border-style: none;
 }
