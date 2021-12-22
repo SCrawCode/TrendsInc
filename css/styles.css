@@ -12,15 +12,17 @@
     position: relative;
     text-align: center;
     padding-top: 5%;
+    background-image: url(../Images/compass.png);
+    background-position: center top;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 #homeLogo {
-    /* padding-top: 5%; */
     width: 25%;
 }
 
 #mantra {
-    padding-top: 5%;
     font-size: x-large;
     color: #EDF2F6;
 }
