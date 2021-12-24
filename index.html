@@ -99,7 +99,7 @@
                 Mi sit amet mauris commodo quis. Curabitur gravida arcu ac tortor.</p>
 
         </div>
-        
+
         <div class="home-buttons">
             <button type="button" class="btn btn-outline-dark btn-lg" id="home-join">JOIN</button>
             <button type="button" class="btn btn-outline-dark btn-lg" id="home-directory">DIRECTORY</button>
@@ -122,7 +122,7 @@
     </section>
 
     <!-- Embedded Podcast -->
-    <div class="container-fluid col-12">
+    <div class="container-fluid col-12" id="podcast-outer">
         <section id="podcast">
             <h2>Trends Podcast</h2>
             <div class="col-md-3">
@@ -134,20 +134,24 @@
     <!-- About/Contact Page -->
     <div class="about-contact container-fluid">
         <section>
-            <div class="col-12" id="contact">
-                <h2>Contact Trends Inc.</h2>
-                <form action="mailto:" method="post" enctype="text/plain">
-                    <label>Name:</label>
-                    <input type="text" name="inputName" value=""><br>
-                    <label>Company:</label>
-                    <input type="text" name="inputCompany" value=""><br>
-                    <label>Email:</label>
-                    <input type="email" name="inputEmail" value=""><br>
-                    <label>Message:</label><br>
-                    <textarea name="inputMessage" cols="30" rows="10"></textarea><br>
+            <h2>Contact Trends Inc.</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Message</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput3">
+                </div>
+                <div class="mb-3">
                     <input type="submit">
-                </form>
-            </div>
+                </div>
+            </form>
         </section>
     </div>
 
@@ -158,7 +162,9 @@
             <br>
             <br>Website Proudly Crafted by Design House eMans&copy;
             <br>
-            Icons made by <a href="https://www.flaticon.com/authors/smashicons" id="att" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" id="att" title="Flaticon">www.flaticon.com</a>
+            Icons made by <a href="https://www.flaticon.com/authors/smashicons" id="att"
+                title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" id="att"
+                title="Flaticon">www.flaticon.com</a>
         </p>
     </footer>
 

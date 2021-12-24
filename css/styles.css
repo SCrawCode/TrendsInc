@@ -78,8 +78,10 @@
 }
 
 /* Embedded Podcast */
+#podcast-outer {
+    padding: 5% 10% 5% 10%;
+}
 #podcast {
-    margin-top: 2%;
     background-color: black;
 }
 
