@@ -1,0 +1,318 @@
+/* 
+    Style Guide
+Theme: Modern - Clean
+Palette: Pri: Black    #Black
+         Sec: White    #FFFFFF
+         Ter: Charcoal #36454f
+         Pop: Royal Blue  #004687
+         Pop2: Gold #BD9B60   
+ */
+
+
+/* Variables */
+:root {
+    --primary: black;
+    --secodary: white;
+    --tertiary: #36454f;
+    --pop1: #004687;
+    --pop2: #BD9B60;
+}
+
+/* Reset */
+body, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* Base Styles */
+body {
+    background: var(--secodary);
+    overflow-x: hidden;
+}
+
+button {
+    background: none;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .6);
+    display: inline-block;
+}
+
+button:hover {
+    color: var(--pop2);
+    background: var(--secondary);
+    border: 2px solid;
+}
+
+input, textarea {
+    background: rgba(255, 255, 255, .05);
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 2px solid var(--tertiary);
+    color: var(--tertiary);
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Merriweather';
+    src: url('fonts/Merriweather/Merriweather-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+h1, h2, h3, h4, button {
+    font-family: 'Merriweather';
+}
+
+p, a, li {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h1, h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+/* Mobile Styles */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.site-nav ul {
+    display: none;
+}
+
+#header {
+    padding: 0px 20px;
+    background: url(../assets/KC.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-logo {
+    padding-top: 20px;
+    grid-column: 4/8;
+    grid-row: 2;
+    justify-content: center;
+}
+
+.header-logo img {
+    width: 50%;
+}
+
+.header-title {
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: large;
+}
+
+.header-text {
+    grid-column: 1/9;
+    grid-row: 3;
+    text-align: center;
+    padding-top: 15px;
+    color: var(--secodary);
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.header-nav {
+    padding-top: 10px;
+    grid-column: 6/9;
+    grid-row: 1;
+    justify-content: center;
+}
+
+.h-nav {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+
+#about h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-text p {
+    margin: 10px;
+    grid-column: 1/9;
+    text-align: center;
+}
+
+.about-links {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.about-links button{
+    margin: 5px;
+    padding: 5px;
+    grid-column: 2/8;
+}
+
+#services {
+    background: var(--primary);
+    padding: 20px 0px;
+}
+
+#services h3 {
+    color: var(--pop2);
+    text-align: center;
+}
+
+.service-cards a {
+    grid-column: 1/9;
+    display: flex;
+    margin: 10px 0;
+}
+
+.service-cards img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid var(--pop2);
+}
+
+.service-cards a *{
+    margin: 0 20px;
+    max-width: 50%;
+    align-self: center;
+    font-size: smaller;
+    color: var(--pop2);
+    text-align: center;
+}
+
+
+
+#podcast {
+    background: var(--secodary);
+    margin: 0px;
+    padding: 10px;
+}
+
+#podcast h3 {
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px 0px;
+}
+
+#padding iframe {
+    background: rgba(0, 0, 0, .2);
+}
+
+
+
+#contact {
+     padding: 30px 0; 
+    background: var(--primary);
+}
+
+#contact h3, #contact p {
+    text-align: center;
+    color: var(--pop2);
+    margin-bottom: 0;
+}
+
+#contact form {
+    /* width: 80%; */
+    /* max-width: 400px; */
+    margin: 20px;
+    text-align: center;
+}
+
+#contact input, #contact textarea {
+    width: 75%;
+    max-width: 400px;
+    margin: 10px 5px;
+}
+
+#contact button {
+    margin: 10px auto;
+    background: var(--pop2);
+}
+
+#contact button:hover {
+    background: var(--primary);
+    border: 2px solid;
+    border-color: var(--pop2);
+    color: var(--pop2);
+}
+
+#contact ul {
+    width: 75%;
+    margin: auto;
+    padding: 10px; 
+    color: var(--pop2);
+    text-align: center;
+    background-color: rgba(255, 255, 255, .06);
+    border-radius: 50px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+#legal {
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+}
+
+#legal li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.attribution {
+    margin-top: 10px;
+    font-size: x-small;
+}
+
+
+/* Small Tablet Styles */
+@media screen and (min-width: 620px) {
+    
+}
+
+/* Large Tablets & Laptops Styles */
+@media screen and (min-width: 960px) {
+    
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Desktops Styles */
+@media screen and (min-width: 1200px) {
+    
+    body {
+        font-size: 20px;
+    }
+}
+
