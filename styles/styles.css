@@ -286,12 +286,13 @@ h4 {
 }
 
 .socials {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .attribution {
     margin-top: 10px;
     font-size: x-small;
+    display: flex;
 }
 
 
