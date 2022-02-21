@@ -121,7 +121,7 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 35vh; 
+    height: 32vh;
 }
 
 #family-header h3 {
@@ -143,6 +143,13 @@ h4 {
 
 .foundation {
     background: url('../assets/help.png');
+}
+
+/* Family About */
+
+#about-family {
+    text-align: center;
+    padding: 20px 30px;
 }
 
 
