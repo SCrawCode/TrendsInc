@@ -290,6 +290,7 @@ h4 {
     border-radius: 25px;
     border: 2px solid var(--pop2);
     color: var(--pop2);
+    background: rgba(255, 255, 255, .15);
 }
 
 #booking select {
@@ -297,7 +298,7 @@ h4 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    background: rgba(255, 255, 255, .05);
+    background: rgba(255, 255, 255, .15);
     color: var(--pop2);
     border: 2px solid var(--pop2);
     border-radius: 10px;
@@ -305,7 +306,7 @@ h4 {
 }
 
 #booking button {
-    background: rgba(255, 255, 255, .05);
+    background: rgba(255, 255, 255, .15);
     border: 2px solid var(--pop2);
     color: var(--pop2);
     width: 50%;
