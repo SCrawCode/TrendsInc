@@ -18,16 +18,39 @@
 
 </head>
 
-<body>
+<body x-data="{open: false}">
     <!-- Navbar -->
     <nav class="site-nav grid">
         <ul>
             <li><a href="#about">About Trends</a></li>
             <li><a href="#services">Trends Family</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#">Sign Up/Sign In</a></li>
         </ul>
     </nav>
+
+    <!-- Modal  -->
+
+    <div  
+         
+         x-show="open"
+         class="su-modal-bg"
+    >
+        <div class="su-modal-contents">
+
+            <h3>USER SIGN IN</h3>
+
+            <button @click="open = false" class="close">+</button>
+
+            <form class="sign-up" action="">
+                <input type="text" placeholder="Name...">
+                <input type="text" placeholder="Username...">
+                <input type="email" placeholder="Email...">
+                <input type="tel" placeholder="Number...">
+                <button class="button">Submit</button>
+            </form>
+
+        </div>
+    </div>
 
     <!-- Header -->
     <header id="header" class="grid">
@@ -48,6 +71,7 @@
                 <li><a href="#"><img src="assets/phone-book.png" alt="Directory"></a></li>
             </ul>
         </div>
+
     </header>
 
     <!-- About -->
@@ -59,6 +83,7 @@
                 blanditiis.</p>
         </div>
         <div class="about-links grid">
+            <button @click="open = true">Login</button>
             <button type="button">Directory</button>
             <button type="button">News Feed</button>
         </div>
@@ -135,6 +160,10 @@
                 Flaticon</a></p>
 
     </footer>
+
+    <script>
+
+    </script>
 </body>
 
 </html>
