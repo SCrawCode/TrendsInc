@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trends Inc & Company</title>
+    <title>Trends GMC Barbershop</title>
 
     <!-- CSS Styling  -->
     <link rel="stylesheet" href="../styles/styles.css">
 
-    <!-- Alpine JS CDN -->
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+     <!-- Alpine JS CDN -->
+     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    <!-- Favicon -->
+     <!-- Favicon -->
     <link rel="icon" href="../assets/favicon.ico">
 </head>
-
 <body>
     <!-- Navbar -->
     <nav class="family-nav">
@@ -27,41 +25,40 @@
             <li><a href="./clothing.html"><img src="../assets/shopping-bag.png" alt="Trends Inc & Company"></a></li>
         </ul>
     </nav>
-    
+
     <!-- Header -->
-    <header id="family-header" class="store">
+    <header id="family-header" class="barbershop">
         <div class="title">
-            <h3>Trends Inc & Company</h3>
-        </div>
+            <h3>Trends GMC Barbershop</h3>
+        </div> 
     </header>
 
     <!-- About -->
     <section id="about-family">
-        <h3>About Trends Inc. & Company</h3>
+        <h3>About Trends GMC Barbershop</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima obcaecati ut, adipisci harum quibusdam
             facilis commodi numquam expedita debitis sunt voluptatem optio culpa neque totam esse quisquam nisi odit
             deleniti.</p>
     </section>
 
-    <!-- Shop -->
-    <section id="shop">
-        <h3>Featured Products</h3>
-        <div class="store-cards flex">
-            <div class="card-body">
-                <img src="../assets/incncologo.png" alt="Featured Product 1" class="card">
-                <br>
-                <a href="#">KC Hoodie</a>
-            </div>
-            <div class="card-footer" id="store-card">
-                <button type="button">Learn More</button>
-                <button type="button">Add to Cart</button>
-            </div>
-        </div>
-        <div id="shop-items">
-            <button><a href="">All Products</a></button>
-        </div>
+    <!-- Booking -->
+    <section id="booking">
+        <h3>Quick Book</h3>
+        <form action="" >
+            <input type="text" placeholder="Name...">
+            <input type="tel" placeholder="Number...">
+            <input type="date" placeholder="Time...">
+            <label for="cuts">Choose a Cut:</label>
+            <select id="cuts" name="cuts">
+              <option value="cut">Hair Cut</option>
+              <option value="yCut">Kids Cut 10 & Under</option>
+              <option value="sCut">Cut & Shave</option>
+              <option value="gmc">The GMC</option>
+            </select>
+            <button type="submit">Request Time</button>
+        </form>
     </section>
-
+    
     <!-- Footer -->
     <footer id="legal">
         <p>Trends&trade; Inc. and it's affiliated companies are a registered trademark of the the Trends&trade; brand.
@@ -89,5 +86,4 @@
 
     </footer>
 </body>
-
 </html>
