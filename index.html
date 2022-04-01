@@ -19,14 +19,6 @@
 </head>
 
 <body x-data="{open: false}">
-    <!-- Navbar -->
-    <nav class="site-nav grid">
-        <ul>
-            <li><a href="#about">About Trends</a></li>
-            <li><a href="#services">Trends Family</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
     <!-- Modal  -->
 
@@ -42,17 +34,22 @@
             <button @click="open = false" class="close">+</button>
 
             <form class="sign-up" action="">
-                <input type="text" placeholder="Name...">
-                <input type="text" placeholder="Username...">
-                <input type="email" placeholder="Email...">
-                <input type="tel" placeholder="Number...">
-                <input type="password" placeholder="Password...">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Number">
                 <button class="button">Submit</button>
             </form>
-
-            <p style="margin-top: 10px; font-size: small;">If You Already Have An Account, We Just Need Your Username and Password!</p>
-
         </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="header-nav">
+        <ul class="h-nav">
+            <li class="title"><a href="/"><h1>Trends Inc.</h1></a></li>
+            <li><a href="#podcast"><img src="assets/voice.png" alt="Talking Heads Podcast"></a></li>
+            <li><a href="/pages/newsletter.html"><img src="assets/rss-feed.png" alt="News Feed"></a></li>
+            <li><a href="/pages/directory.html"><img src="assets/phone-book.png" alt="Directory"></a></li>
+        </ul>
     </div>
 
     <!-- Header -->
@@ -60,53 +57,61 @@
         <div class="header-logo">
             <img src="assets/Logo.png" alt="Trends Inc Logo">
         </div>
-        <div class="header-title">
-            <h1>Trends Inc.</h1>
-        </div>
         <div class="header-text">
             <p class="slogan">The official guide to Kansas City's premier Black
                 businesses</p>
         </div>
-        <div class="header-nav">
-            <ul class="h-nav">
-                <li><a href="#podcast"><img src="assets/voice.png" alt="Talking Heads Podcast"></a></li>
-                <li><a href="#"><img src="assets/rss-feed.png" alt="News Feed"></a></li>
-                <li><a href="#"><img src="assets/phone-book.png" alt="Directory"></a></li>
-            </ul>
-        </div>
-
     </header>
 
     <!-- About -->
     <section id="about">
-        <h3>About Trends Inc.</h3>
-        <div class="about-text grid">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ratione vero quasi velit repellendus
-                reprehenderit rem. Qui tenetur laudantium, magni soluta ex, ipsam mollitia, magnam ab incidunt iure et
-                blanditiis.</p>
+        <h2>About Trends Inc.</h2>
+        <div class="about-text">
+            <p>Every discoverer needs a scout and when it comes to Kansas City&apos;s Black businesses,
+                you can count on Trends Inc. to find exactly what you need! Take a look at our ever growing business directory
+                or check out the newsletter to find out what&apos;s going on with Trends Inc.
+              </p> 
         </div>
-        <div class="about-links grid">
+        <div class="about-links">
             <button @click="open = true">Login</button>
-            <button type="button">Directory</button>
-            <button type="button">News Feed</button>
+            <button type="button"><a href="/pages/directory.html">Directory</a></button>
+            <button type="button"><a href="/pages/newsletter.html">Newsletter</a></button>
         </div>
     </section>
 
     <!-- Services -->
     <section id="services">
-        <h3>Trends Family</h3>
-        <div class="service-cards grid">
+        <h2>Trends Family</h2>
+        <div class="service-cards">
             <a href="pages/foundation.html">
-                <img src="assets/careslogo.png" alt="Trends Cares Foundation">
-                <h4>Trends Cares Foundation</h4>
+                <div class="card">
+                    <div class="card-head">
+                        <img src="assets/careslogo.png" alt="Trends Cares Foundation">
+                    </div>
+                    <div class="card-foot">
+                        Trends Cares Foundation
+                    </div>
+                </div>
             </a>
             <a href="pages/barbershop.html">
-                <img src="assets/shoplogo.png" alt="Trends GMC Barbershop">
-                <h4>Trends GMC Barbershop</h4>
+                <div class="card">
+                    <div class="card-head">
+                        <img src="assets/shoplogo.png" alt="Trends Cares Foundation">
+                    </div>
+                    <div class="card-foot">
+                        Trends GMC Barbershop
+                    </div>
+                </div>
             </a>
             <a href="pages/clothing.html">
-                <img src="assets/incncologo.png" alt="Trends Inc & Company">
-                <h4>Trends Inc & Company</h4>
+                <div class="card">
+                    <div class="card-head">
+                        <img src="assets/incncologo.png" alt="Trends Cares Foundation">
+                    </div>
+                    <div class="card-foot">
+                        Trends Inc. & Company
+                    </div>
+                </div>
             </a>
         </div>
     </section>
@@ -121,10 +126,9 @@
 
     <!-- Contact -->
     <section id="contact">
-        <h3>Contact Trends Inc.</h3>
+        <h2>Contact Trends Inc.</h2>
         <form action="" >
             <input type="text" placeholder="Name...">
-            <input type="text" placeholder="Company...">
             <input type="email" placeholder="Email...">
             <input type="tel" placeholder="Number...">
             <textarea name="" id="" cols="30" rows="1" placeholder="message..."></textarea>
@@ -133,9 +137,8 @@
         </form>
         
             <ul>
-                <li>(XXX) XXX-XXXX</li>
-                <li>XXXX@DOMAIN.COM</li>
-                <li>XXXX STREET DR. Kansas City, MO 64118</li>
+                <li>7080 N. Oak Trwy, Gladstone, MO</li>
+                <li>(913) 940-0437</li>
             </ul>
         
     </section>
@@ -152,7 +155,7 @@
         <ul class="socials">
             <li><a href=""><img src="assets/instagram.png" alt="instagram"></a></li>
             <li><a href=""><img src="assets/twitter.png" alt="twitter"></a></li>
-            <li><a href=""><img src="assets/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://www.facebook.com/trendsinckck"><img src="assets/facebook.png" alt="facebook"></a></li>
         </ul>
 
         <p class="attribution">Images and Icons By: <br>
