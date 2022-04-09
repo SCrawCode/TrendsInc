@@ -33,7 +33,7 @@ li {
 
 /* Base Styles */
 body {
-    background: var(--secodary);
+    background: var(--secondary);
     overflow-x: hidden;
 }
 
