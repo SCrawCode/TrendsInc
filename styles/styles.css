@@ -284,13 +284,26 @@ h4 {
     flex-direction: column;
     gap: 1.5rem;
     margin: 4rem 2rem;
+    background-color: var(--tertiary);
+    border: 2px solid var(--primary);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .25);
+    color: #fff;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, .25);
 }
 
-.donate-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+#donate p {
+    color: var(--secodary);
 }
+
+.donate-join input{
+    background-color: var(--secodary);
+}
+
+.donate-join button {
+    background-color: var(--secodary);
+}
+
+
 
 /* ***** Clothing Site ****** */
 
