@@ -181,6 +181,47 @@ h4 {
     }
 }
 
+/* Laptop/Tablet Styles */
+@media screen and (min-width: 1000px) {
+    #family-header {
+        height: 32rem;
+    }
+
+    #family-header h3 {
+        font-size: 30px;
+        padding-top: 15rem;
+    }
+
+    #about-family {
+        padding: 5rem;
+    }
+
+    #about-family h3 {
+        font-size: 25px;
+    }
+
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1200px) {
+    #family-header {
+      height: 40rem;
+    } 
+    
+    #family-header h3 {
+      font-size: 35px;
+      padding-top: 19rem;
+    }
+
+    #about-family {
+        padding: 6rem;
+    }
+
+    #about-family h3 {
+        font-size: 27px;
+    }
+}
+
 
 /* ***** Foundation Site ****** */
 
@@ -250,7 +291,7 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin: 4rem 2rem;
+    margin: 4rem 6rem;
     background-color: var(--pop2);
     border: 2px solid var(--primary);
     box-shadow: 1px 2px 3px rgba(0, 0, 0, .25);
@@ -270,6 +311,16 @@ h4 {
 
 .donate-join button {
     background-color: var(--secodary);
+}
+
+@media screen and (min-width: 1200px) {
+    #donate {
+      margin: 4rem 8rem;
+    } 
+    
+    #donate h3 {
+      font-size: 29px;
+    }
 }
 
 
@@ -384,13 +435,13 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-logo {
-    padding-top: 20px;
-    grid-column: 4/8;
-    grid-row: 2;
-    justify-content: center;
+    text-align: center;
 }
 
 .header-logo img {

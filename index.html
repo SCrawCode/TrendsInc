@@ -218,6 +218,19 @@
     }
 
 
+    /* Phone Sizes */
+    @media screen and (max-width: 599px) {
+        .header-logo {
+            padding-top: 4rem;
+            width: 200px;
+        }
+
+        .slogan {
+            font-size: 18px;
+        }
+    }
+
+
     /* Small Tablet Styles */
 
     @media screen and (min-width: 600px) {
@@ -225,8 +238,13 @@
             height: 29rem;
         }
 
+        .header-logo {
+            padding-top: 8rem;
+            width: 260px;
+        }
+
         .slogan {
-            font-size: 23px;
+            font-size: 20px;
         }
 
         #about {
@@ -261,6 +279,53 @@
     @media screen and (min-width: 1000px){
         #header {
             height: 31rem;
+        }
+
+        .header-logo {
+            padding-top: 8rem;
+            width: 300px;
+        }
+
+        .slogan {
+            font-size: 23px;
+        }
+
+        #about {
+            padding: 2rem;
+            margin: 4rem;
+        }
+
+        .about-links {
+            flex-direction: row;
+            justify-content: center;
+            gap: 3rem;
+        }
+
+        .service-cards {
+            display: none;
+        }
+
+        .services-large {
+            display: flex;
+            gap: .5rem;
+        }
+    }
+
+    /* Desktop Styles */
+
+    @media screen and (min-width: 1200px) {
+        #header {
+            height: 100vh;
+        }
+
+        .header-logo {
+            width: 700px;
+            max-width: 700px;
+            padding-top: 13rem;
+        }
+
+        .slogan {
+            font-size: 30px;
         }
 
         #about {
