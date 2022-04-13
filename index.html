@@ -128,6 +128,30 @@
                 </button>
               </div>
         </div>
+
+        <div class="services-large">
+            <div class="card" style="width: 20rem;">
+                <img src="assets/careslogo.png" class="card-img-top" style="height: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Trends Cares Foundation</h5>
+                  <a href="pages/foundation.html" class="btn btn-secondary" style="margin: .25rem;">Visit Site</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="assets/shoplogo.png" class="card-img-top" style="height: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Trends GMC Barbershop</h5>
+                  <a href="pages/barbershop.html" class="btn btn-secondary" style="margin: .25rem;">Visit Site</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="assets/incncologo.png" class="card-img-top" style="height: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Trends Inc. & Company</h5>
+                  <a href="pages/clothing.html" class="btn btn-secondary" style="margin: .25rem;">Visit Site</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Podcast -->
@@ -189,6 +213,10 @@
 </html>
 
 <style>
+    .services-large {
+        display: none;
+    }
+
 
     /* Small Tablet Styles */
 
@@ -224,6 +252,35 @@
         .attribution {
             display: flex;
             justify-content: center;
+        }
+    }
+
+
+    /* Tablet & Laptop Styles */
+
+    @media screen and (min-width: 1000px){
+        #header {
+            height: 31rem;
+        }
+
+        #about {
+            padding: 2rem;
+            margin: 4rem;
+        }
+
+        .about-links {
+            flex-direction: row;
+            justify-content: center;
+            gap: 3rem;
+        }
+
+        .service-cards {
+            display: none;
+        }
+
+        .services-large {
+            display: flex;
+            gap: .5rem;
         }
     }
 </style>
