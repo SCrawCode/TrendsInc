@@ -57,20 +57,20 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="width: 360px; margin: auto;">
               <div class="carousel-item active">
-                <img src="../assets/incncologo.png" class="d-block w-100" alt="...">
+                <img src="../assets/incncologo.png" class="d-block w-100" alt="Shop Item">
                 <div class="carousel-caption  d-md-block">
                   <h5>KC Hoodie</h5>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" style="width: 360px; margin: auto;">
                 <img src="..." class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" style="width: 360px; margin: auto;">
                 <img src="..." class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
@@ -116,3 +116,16 @@
 </body>
 
 </html>
+
+<style>
+  @media screen and (min-width: 600px) {
+      #shop {
+        margin: 4rem 2rem;
+      } 
+      
+      #shop h3 {
+        font-size: 23px;
+        padding: 2rem;
+      }
+  }
+</style>
