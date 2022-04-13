@@ -123,6 +123,7 @@ h4 {
     margin-right: auto;
 }
 
+
 /* Family Header */
 
 #family-header {
@@ -157,6 +158,27 @@ h4 {
 #about-family {
     text-align: center;
     padding: 2.5rem;
+}
+
+
+/* Small Tablet Styles */
+@media screen and (min-width: 600px ){
+    #family-header {
+        height: 29rem;
+    }
+
+    #family-header h3 {
+        font-size: 29px;
+        padding-top: 13.5rem;
+    }
+
+    #about-family {
+        padding: 3rem;
+    }
+
+    #about-family h3 {
+        font-size: 22px;
+    }
 }
 
 
