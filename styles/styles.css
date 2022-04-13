@@ -577,24 +577,5 @@ h4 {
 
 
 
-/* Small Tablet Styles */
-@media screen and (min-width: 620px) {
-    
-}
 
-/* Large Tablets & Laptops Styles */
-@media screen and (min-width: 960px) {
-    
-    body {
-        font-size: 19px;
-    }
-}
-
-/* Desktops Styles */
-@media screen and (min-width: 1200px) {
-    
-    body {
-        font-size: 24px;
-    }
-}
 
